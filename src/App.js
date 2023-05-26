@@ -4,7 +4,10 @@ import Navbar from './components/Navbar';
 import Home from "./layouts/Home/Home";
 import Footer from "./components/Footer";
 
+import Matematicas from './layouts/Matematicas';
+import Fisica from './layouts/Fisica';
 import About from './layouts/About';
+import Guia from './layouts/Guia';
 
 import favicon from './assets/logo.svg';
 import './App.css';
@@ -30,16 +33,17 @@ function App() {
 
   return (
         <div className="App">
-          <link rel="shortcut icon" type="image/png" href={favicon} />
           {theme === 'dark' && (
-            <link rel="stylesheet" type="text/css" href="../static/dark-mode.css" />
+            <link rel="stylesheet" type="text/css" href="./static/dark-mode.css" />
           )}
           <Navbar onUpdateTheme={onUpdateTheme} theme={theme}/>
           <Routes>
-            <Route exact path='/' element={<Home />} />
-            <Route exact path='/me' element={<About />} />
-          </Routes>
-          
+            <Route path='/' element={<Home />} />
+            <Route exact path='/matematicas' element={<Matematicas />} />
+            <Route exact path='/fisica' element={<Fisica />} />
+            <Route exact path='/blog' element={<Guia />} />
+            <Route path='/me' element={<About />} />
+          </Routes>   
           <Footer />
         </div>
   );

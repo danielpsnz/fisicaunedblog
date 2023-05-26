@@ -27,7 +27,6 @@ export const Navigation = ({ theme, onUpdateTheme }) => {
         <div className="nav-wrapper">
 
         <div className="nav">
-
           <Navbar.Brand href="/" className="item brand">
             <img src={logo} className="logo" alt="representation of an atom"/>
             <span>Física en la UNED</span>
