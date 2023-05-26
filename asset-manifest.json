@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fisicaunedblog/static/css/main.4e3f4cc4.css",
-    "main.js": "/fisicaunedblog/static/js/main.6eea059f.js",
+    "main.js": "/fisicaunedblog/static/js/main.636c44fb.js",
     "static/media/my-img.png": "/fisicaunedblog/static/media/my-img.c8adaba97a982ee2e8d4.png",
     "static/media/divider.png": "/fisicaunedblog/static/media/divider.1c9f2cd494331c307f5c.png",
     "static/media/profile.jpg": "/fisicaunedblog/static/media/profile.0a92479590c0f859e23d.jpg",
@@ -9,10 +9,10 @@
     "static/media/logo.svg": "/fisicaunedblog/static/media/logo.830b9eacbc49981719d5bbb9feed3ff6.svg",
     "index.html": "/fisicaunedblog/index.html",
     "main.4e3f4cc4.css.map": "/fisicaunedblog/static/css/main.4e3f4cc4.css.map",
-    "main.6eea059f.js.map": "/fisicaunedblog/static/js/main.6eea059f.js.map"
+    "main.636c44fb.js.map": "/fisicaunedblog/static/js/main.636c44fb.js.map"
   },
   "entrypoints": [
     "static/css/main.4e3f4cc4.css",
-    "static/js/main.6eea059f.js"
+    "static/js/main.636c44fb.js"
   ]
 }
