@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Home from "./layouts/Home/Home";
 import Footer from "./components/Footer";
 
+import About from './layouts/About';
+
 import favicon from './assets/logo.svg';
 import './App.css';
 
@@ -38,9 +40,9 @@ function App() {
             <link rel="stylesheet" type="text/css" href="../static/dark-mode.css" />
           )}
           <Navbar onUpdateTheme={onUpdateTheme} theme={theme}/>
-          <Home />
           <Routes>
             <Route exact path='/' element={<Home />} />
+            <Route exact path='/me' element={<About />} />
           </Routes>
           
           <Footer />
