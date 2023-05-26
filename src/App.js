@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import Navbar from './components/Navbar';
+import Home from "./layouts/Home/Home";
 import Footer from "./components/Footer";
 
 import favicon from './assets/logo.svg';
@@ -37,7 +38,9 @@ function App() {
             <link rel="stylesheet" type="text/css" href="../static/dark-mode.css" />
           )}
           <Navbar onUpdateTheme={onUpdateTheme} theme={theme}/>
+          <Home />
           <Routes>
+            <Route exact path='/' element={<Home />} />
           </Routes>
           
           <Footer />
