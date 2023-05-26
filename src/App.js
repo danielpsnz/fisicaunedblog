@@ -9,11 +9,7 @@ import About from './layouts/About';
 import favicon from './assets/logo.svg';
 import './App.css';
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes
-} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 
 function App() {
   const [theme, setTheme] = useState('dark')
@@ -33,7 +29,6 @@ function App() {
   }, [])
 
   return (
-      <Router>
         <div className="App">
           <link rel="shortcut icon" type="image/png" href={favicon} />
           {theme === 'dark' && (
@@ -47,7 +42,6 @@ function App() {
           
           <Footer />
         </div>
-      </Router>
   );
 }
 
