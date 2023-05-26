@@ -20,7 +20,7 @@ const socialNavItems = [
   { url: 'https://www.linkedin.com/in/danielpsnz/', icon: <IoLogoLinkedin />, label: 'Linkedin' },
 ]
 
-export const Navigation = ({ theme, onUpdateTheme }) => {
+export const Navigation = ({ onUpdateTheme }) => {
   return (
     <section className="navigation">
       <div className="container">
