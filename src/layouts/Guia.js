@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import './Home/Home.css';
 
@@ -34,43 +35,43 @@ const Guia = () => {
                 <h2>Primer año</h2>
                 <div className="year">
                 <ul className="main-list">
-                    <li className="main-list-item"><a href="/FF1">Fundamentos de Física I</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Química</a></li>
-                    <li className="main-list-item"><a href="/B">Biología</a></li>
-                    <li className="main-list-item"><a href={Analisis1}>Análisis matemático I</a></li>
-                    <li className="main-list-item"><a href={Algebra}>Álgebra</a></li>
+                    <li className="main-list-item"><Link to="/FF1">Fundamentos de Física I</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Química</Link></li>
+                    <li className="main-list-item"><Link to="/B">Biología</Link></li>
+                    <li className="main-list-item"><Link to={Analisis1}>Análisis matemático I</Link></li>
+                    <li className="main-list-item"><Link to={Algebra}>Álgebra</Link></li>
                 </ul>
                 <ul className="main-list">
-                    <li className="main-list-item"><a href="/FF2">Fundamentos de Física II</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Técnicas Experimentales I</a></li>
-                    <li className="main-list-item"><a href={Metodos1}>Métodos Matemáticos I</a></li>
-                    <li className="main-list-item"><a href={Comp1}>Física Computacional I</a></li>
-                    <li className="main-list-item"><a href={Analisis2}>Análisis Matemático II</a></li>
+                    <li className="main-list-item"><Link to="/FF2">Fundamentos de Física II</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Técnicas Experimentales I</Link></li>
+                    <li className="main-list-item"><Link to={Metodos1}>Métodos Matemáticos I</Link></li>
+                    <li className="main-list-item"><Link to={Comp1}>Física Computacional I</Link></li>
+                    <li className="main-list-item"><Link to={Analisis2}>Análisis Matemático II</Link></li>
                 </ul>
                 </div>
 
                 <h2>Segundo año</h2>
                 <div className="year">
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><a className="disabled">Fundamentos de Física III</a></li>
-                    <li className="main-list-item"><a href="/EL1">Electromagnetismo I</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Mecánica Clásica</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Métodos Matemáticos II</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Física Computacional II</a></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Fundamentos de Física III</Link></li>
+                    <li className="main-list-item"><Link to="/EL1">Electromagnetismo I</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Mecánica Clásica</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Métodos Matemáticos II</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Física Computacional II</Link></li>
                 </ul>
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><a className="disabled">Vibraciones y Ondas</a></li>
-                    <li className="main-list-item"><a href="/EL2">Electromagnetismo II</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Técnicas Experimentales II</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Teoría de Circuitos y Electrónica</a></li>
-                    <li className="main-list-item"><a href={Metodos3}>Métodos Matemáticos III</a></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Vibraciones y Ondas</Link></li>
+                    <li className="main-list-item"><Link to="/EL2">Electromagnetismo II</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Técnicas Experimentales II</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Teoría de Circuitos y Electrónica</Link></li>
+                    <li className="main-list-item"><Link to={Metodos3}>Métodos Matemáticos III</Link></li>
                 </ul>
                 </div>
 
                 <h2>Cuarto año</h2>
                 <div className="year">
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><a className="disabled">Meteorología y Climatología</a></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Meteorología y Climatología</Link></li>
                 </ul>
                 </div>
             </div>

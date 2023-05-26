@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import './Home/Home.css';
 
@@ -33,16 +34,16 @@ const Matematicas = () => {
                 <h2>First Year</h2>
                 <div className="year">
                 <ul className="main-list">
-                    <li className="main-list-item"><a href={LA1}>Linear Algebra I</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Group Theory</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Numbers and Sets</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Differential Equations</a></li>
+                    <li className="main-list-item"><Link href={LA1}>Linear Algebra I</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Group Theory</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Numbers and Sets</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Differential Equations</Link></li>
                 </ul>
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><a className="disabled">Probability Theory</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Vector Calculus</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Introduction to Applied Mathematics</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Real Analysis I</a></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Probability Theory</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Vector Calculus</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Introduction to Applied Mathematics</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Real Analysis I</Link></li>
                 </ul>
                 </div>
 

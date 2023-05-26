@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import './Home/Home.css';
 
@@ -26,35 +27,35 @@ const Física = () => {
                 <h2>Primer año</h2>
                 <div className="year">
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><a className="disabled">Fundamentos de Física I</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Química</a></li>
-                    <li className="main-list-item"><a href={B}>Biología</a></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Fundamentos de Física I</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Química</Link></li>
+                    <li className="main-list-item"><Link href={B}>Biología</Link></li>
                 </ul>
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><a className="disabled">Fundamentos de Física II</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Técnicas Experimentales I</a></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Fundamentos de Física II</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Técnicas Experimentales I</Link></li>
                 </ul>
                 </div>
 
                 <h2>Segundo año</h2>
                 <div className="year">
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><a className="disabled">Fundamentos de Física III</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Electromagnetismo I</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Mecánica Clásica</a></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Fundamentos de Física III</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Electromagnetismo I</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Mecánica Clásica</Link></li>
                 </ul>
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><a className="disabled">Vibraciones y Ondas</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Electromagnetismo II</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Técnicas Experimentales II</a></li>
-                    <li className="main-list-item-dis"><a className="disabled">Teoría de Circuitos y Electrónica</a></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Vibraciones y Ondas</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Electromagnetismo II</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Técnicas Experimentales II</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Teoría de Circuitos y Electrónica</Link></li>
                 </ul>
                 </div>
 
                 <h2>Cuarto año</h2>
                 <div className="year">
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><a className="disabled">Meteorología y Climatología</a></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Meteorología y Climatología</Link></li>
                 </ul>
                 </div>
             </div>
