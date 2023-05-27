@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { ImPointRight } from "react-icons/im";
 
-import "../../App.css";
+import "../../App.scss";
 
 import Guia from "../../assets/Guias/quimica_guia.pdf"
 

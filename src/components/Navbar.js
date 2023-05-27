@@ -1,6 +1,6 @@
 import { Nav, Navbar } from "react-bootstrap";
 import logo from "../assets/logo.svg";
-import "../App.css";
+import "../App.scss";
 import { Link } from "react-router-dom";
 
 import { IoLogoInstagram, IoLogoTwitter, IoLogoLinkedin, IoSunnyOutline } from "react-icons/io5";

@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import './Home/Home.css';
+import './Home/Home.scss';
 
 import LA1 from "../assets/Apuntes/Matematicas/LA1.pdf"
 

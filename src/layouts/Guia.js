@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import './Home/Home.css';
+import './Home/Home.scss';
 
 import Analisis1 from "../assets/Guias/analisis1_guia.pdf"
 import Algebra from "../assets/Guias/algebra_guia.pdf"

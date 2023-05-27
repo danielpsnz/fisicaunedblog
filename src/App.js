@@ -23,33 +23,30 @@ import TE2 from './layouts/Blog/TE2';
 import VYO from './layouts/Blog/VYO';
 import MYC from './layouts/Blog/MYC';
 
-import './App.css';
+import "./App.scss";
+import "./dark-mode.scss";
 
 import {Route, Routes} from "react-router-dom";
 
 function App() {
-  const [theme, setTheme] = useState('dark');
-
-    const onUpdateTheme = () => {
-      const newTheme = theme === 'dark' ? 'light' : 'dark'
-      window.localStorage.setItem('theme', newTheme)
-      setTheme(newTheme)
+  const [theme, setTheme] = useState(
+    localStorage.getItem('theme') || 'light'
+  );
+  const onUpdateTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
     }
-
-    useEffect(() => {
-      const savedTheme = window.localStorage.getItem('theme')
-  
-      if (savedTheme) {
-        setTheme(savedTheme)
-      }
-    }, [])
+  };
+  useEffect(() => {
+    localStorage.setItem('theme', theme);
+    document.body.className = theme;
+  }, [theme]);
 
   return (
-        <div className='App'>
-          {theme === 'dark' && (
-          <link rel="stylesheet" type="text/css" href="./dark-mode.css" />
-          )}
-          <Navbar onUpdateTheme={onUpdateTheme} theme={theme}/>
+        <div className='app'>
+          <Navbar onUpdateTheme={onUpdateTheme} theme={theme} />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/matematicas' element={<Matematicas />} />

@@ -8,7 +8,8 @@ import headerImg from "../../assets/header-img.svg";
 import myImg from "../../assets/my-img.png";
 import divider from "../../assets/divider.png";
 import 'animate.css';
-import "./Home.css";
+import "./Home.scss";
+import Contact from "../../components/Contact/Contact";
 
 import config from '../../utils/config';
 import Type from "./Type";
@@ -89,6 +90,7 @@ const Home = () => {
           <img src={divider} className="divider" alt="divider" />
         </Row>
           </Container>
+          <Contact />
         </section>
         </HelmetProvider>
       </div>

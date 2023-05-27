@@ -1,7 +1,7 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 
-import './Home/Home.css';
+import './Home/Home.scss';
 import profile from '../assets/profile.jpg';
 
 const About = () => {
