@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "puedes leer mi experiencia.",
           "encontrarás apuntes maravillosos.",
-          "puedes leer artículos sobre física.",
+          "puedes leer artículos de física.",
         ],
         autoStart: true,
         loop: true,

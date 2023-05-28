@@ -66,12 +66,9 @@
 }
 
 .dark {
-  * {
-    background-color: var(--dark-background-color);
-  }
 
-  html {
-    background-color: var(--dark-background-color);
+  #root {
+    background-color: var(--dark-background-color) !important;
   }
 
   a {
@@ -80,9 +77,7 @@
 
   p,
   ul,
-  ol,
   ul,
-  table,
   blockquote {
     color: var(--dark-font-color-base);
   }
@@ -145,7 +140,7 @@
   }
 
   .navigation {
-    border-bottom: 1px solid var(--dark-border-color);
+    background: var(--dark-background-color);
   }
 
   .navigation a.item,
@@ -162,33 +157,6 @@
   .sun {
     color: var(--dark-star);
     background-color: var(--dark-button-background-color);
-  }
-
-  .card {
-    border: 1px solid var(--dark-border-color);
-    background: var(--dark-card-background-color);
-  }
-
-  .card a.card-header,
-  .card h2 {
-    color: var(--dark-font-color-heading);
-  }
-
-  .card a.card-header:hover,
-  .card h2:hover {
-    color: var(--dark-font-color-bright);
-  }
-
-  .card p {
-    color: var(--dark-font-color-muted);
-  }
-
-  .card time {
-    color: var(--dark-card-time-color);
-  }
-
-  .card.muted time {
-    color: var(--dark-font-color-muted);
   }
 
   .highlight {
@@ -209,5 +177,8 @@
     background-color: var(--dark-background-color);
   }
 
+  .contact {
+    background: linear-gradient(90.21deg, #277a73 -5.91%, #5f85f8 111.58%) !important;
+  }
 }
 
