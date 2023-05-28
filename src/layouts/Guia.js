@@ -38,15 +38,15 @@ const Guia = () => {
                     <li className="main-list-item"><Link to="/FF1">Fundamentos de Física I</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Química</Link></li>
                     <li className="main-list-item"><Link to="/B">Biología</Link></li>
-                    <li className="main-list-item"><Link to={Analisis1}>Análisis matemático I</Link></li>
-                    <li className="main-list-item"><Link to={Algebra}>Álgebra</Link></li>
+                    <li className="main-list-item"><a href={Analisis1}>Análisis matemático I</a></li>
+                    <li className="main-list-item"><a href={Algebra}>Álgebra</a></li>
                 </ul>
                 <ul className="main-list">
                     <li className="main-list-item"><Link to="/FF2">Fundamentos de Física II</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Técnicas Experimentales I</Link></li>
-                    <li className="main-list-item"><Link to={Metodos1}>Métodos Matemáticos I</Link></li>
-                    <li className="main-list-item"><Link to={Comp1}>Física Computacional I</Link></li>
-                    <li className="main-list-item"><Link to={Analisis2}>Análisis Matemático II</Link></li>
+                    <li className="main-list-item"><a href={Metodos1}>Métodos Matemáticos I</a></li>
+                    <li className="main-list-item"><a href={Comp1}>Física Computacional I</a></li>
+                    <li className="main-list-item"><a href={Analisis2}>Análisis Matemático II</a></li>
                 </ul>
                 </div>
 
@@ -64,7 +64,7 @@ const Guia = () => {
                     <li className="main-list-item"><Link to="/EL2">Electromagnetismo II</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Técnicas Experimentales II</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Teoría de Circuitos y Electrónica</Link></li>
-                    <li className="main-list-item"><Link to={Metodos3}>Métodos Matemáticos III</Link></li>
+                    <li className="main-list-item"><a href={Metodos3}>Métodos Matemáticos III</a></li>
                 </ul>
                 </div>
 

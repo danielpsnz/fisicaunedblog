@@ -180,5 +180,10 @@
   .contact {
     background: linear-gradient(90.21deg, #277a73 -5.91%, #5f85f8 111.58%) !important;
   }
+
+  .disabled {
+    color: rgba($color: #999999, $alpha: 1.0) !important;
+    border: 2px solid rgba($color: #999999, $alpha: 1.0) !important;
+  }
 }
 
