@@ -29,7 +29,7 @@ const Física = () => {
                 <ul className="main-list">
                     <li className="main-list-item-dis"><Link className="disabled">Fundamentos de Física I</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Química</Link></li>
-                    <li className="main-list-item"><Link href={B}>Biología</Link></li>
+                    <li className="main-list-item"><a href={B}>Biología</a></li>
                 </ul>
                 <ul className="main-list">
                     <li className="main-list-item-dis"><Link className="disabled">Fundamentos de Física II</Link></li>

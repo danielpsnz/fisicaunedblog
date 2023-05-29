@@ -21,7 +21,7 @@ const About = () => {
               </p>
               <p className="home-about-body" >
               Dado que estudio <span className="purple">Matemáticas </span> en Inglaterra, la mayoría de asignaturas
-            me las convalidan, por eso no las estoy cursando y no os puedo ofrecer recursos ni opiniones sobre esas 
+            sobre matemáticas me las convalidan, por eso no las estoy cursando y no os puedo ofrecer recursos ni opiniones sobre esas 
             asignaturas, que son bastantes. Por eso he decidido abrir esta sección para dejaros también disponibles 
             mis apuntes de la Universidad de York. Están en inglés pero espero que os sirvan de ayuda. 
               </p>

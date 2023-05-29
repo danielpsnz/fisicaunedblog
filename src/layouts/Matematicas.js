@@ -34,7 +34,7 @@ const Matematicas = () => {
                 <h2>First Year</h2>
                 <div className="year">
                 <ul className="main-list">
-                    <li className="main-list-item"><Link href={LA1}>Linear Algebra I</Link></li>
+                    <li className="main-list-item"><a href={LA1}>Linear Algebra I</a></li>
                     <li className="main-list-item-dis"><Link className="disabled">Group Theory</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Numbers and Sets</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Differential Equations</Link></li>
