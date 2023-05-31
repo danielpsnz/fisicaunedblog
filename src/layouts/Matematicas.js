@@ -37,14 +37,14 @@ const Matematicas = () => {
                 <div className="year">
                 <ul className="main-list">
                     <li className="main-list-item"><a href={LA1}>Linear Algebra I</a></li>
-                    <li className="main-list-item-dis"><a href={PM}>Introduction to Pure Mathematics</a></li>
+                    <li className="main-list-item"><a href={PM}>Introduction to Pure Mathematics</a></li>
                     <li className="main-list-item-dis"><Link className="disabled">Calculus and Differential Equations</Link></li>
                 </ul>
                 <ul className="main-list">
                     <li className="main-list-item-dis"><Link className="disabled">Introduction to Probability and Statistics</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Vector Calculus</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Introduction to Applied Mathematics</Link></li>
-                    <li className="main-list-item-dis"><a href={RA1}>Real Analysis I</a></li>
+                    <li className="main-list-item"><a href={RA1}>Real Analysis I</a></li>
                 </ul>
                 </div>
 
