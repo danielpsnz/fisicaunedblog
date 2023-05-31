@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import './Home/Home.scss';
 
 import LA1 from "../assets/Apuntes/Matematicas/LA1.pdf"
+import PM from "../assets/Apuntes/Matematicas/PM.pdf"
+import RA1 from "../assets/Apuntes/Matematicas/RA1.pdf"
 
 const Matematicas = () => {
     return (
@@ -35,15 +37,14 @@ const Matematicas = () => {
                 <div className="year">
                 <ul className="main-list">
                     <li className="main-list-item"><a href={LA1}>Linear Algebra I</a></li>
-                    <li className="main-list-item-dis"><Link className="disabled">Group Theory</Link></li>
-                    <li className="main-list-item-dis"><Link className="disabled">Numbers and Sets</Link></li>
-                    <li className="main-list-item-dis"><Link className="disabled">Differential Equations</Link></li>
+                    <li className="main-list-item-dis"><a href={PM}>Introduction to Pure Mathematics</a></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Calculus and Differential Equations</Link></li>
                 </ul>
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><Link className="disabled">Probability Theory</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Introduction to Probability and Statistics</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Vector Calculus</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Introduction to Applied Mathematics</Link></li>
-                    <li className="main-list-item-dis"><Link className="disabled">Real Analysis I</Link></li>
+                    <li className="main-list-item-dis"><a href={RA1}>Real Analysis I</a></li>
                 </ul>
                 </div>
 

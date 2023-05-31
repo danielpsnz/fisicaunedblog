@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+/** import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import commentImg from "../assets/comment.png";
 import "../App.scss";
@@ -96,5 +96,5 @@ const CommentsSection = () => {
   );
 };
 
-export default CommentsSection;
+export default CommentsSection; **/
 

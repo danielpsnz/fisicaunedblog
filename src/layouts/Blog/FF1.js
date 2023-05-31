@@ -6,8 +6,6 @@ import "../../App.scss";
 
 import Guia from "../../assets/Guias/fisica1_guia.pdf"
 
-import Comments from "../../components/Comments";
-
 const FF1 = () => {
     return (
         <div className="matematicas">
@@ -208,7 +206,7 @@ const FF1 = () => {
         </ul>
     
     </div>
-            <Comments />
+            
         </div>
     );
 }
