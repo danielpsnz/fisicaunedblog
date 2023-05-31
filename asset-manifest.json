@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.d0f2428b.css",
-    "main.js": "/static/js/main.ecd3b3b2.js",
+    "main.js": "/static/js/main.9c92747d.js",
     "static/media/my-img.png": "/static/media/my-img.c8adaba97a982ee2e8d4.png",
     "static/media/divider.png": "/static/media/divider.1c9f2cd494331c307f5c.png",
     "static/media/analisis1_guia.pdf": "/static/media/analisis1_guia.2d22a1b48e3c3cae8345.pdf",
     "static/media/analisis2_guia.pdf": "/static/media/analisis2_guia.0f820e3b981dda7c1a19.pdf",
     "static/media/profile.jpg": "/static/media/profile.0a92479590c0f859e23d.jpg",
+    "static/media/PM.pdf": "/static/media/PM.302fdce838cf1ea2dc69.pdf",
     "static/media/LA1.pdf": "/static/media/LA1.56a98473289343b65b48.pdf",
+    "static/media/RA1.pdf": "/static/media/RA1.aabdb344957476e05c44.pdf",
     "static/media/B.pdf": "/static/media/B.64b6f2634eb31ff965f1.pdf",
     "static/media/fisica1_guia.pdf": "/static/media/fisica1_guia.987afa4251174a65d75e.pdf",
     "static/media/computacional1_guia.pdf": "/static/media/computacional1_guia.ac11456ca54bee2a23d7.pdf",
@@ -24,10 +26,10 @@
     "static/media/logo.svg": "/static/media/logo.830b9eacbc49981719d5bbb9feed3ff6.svg",
     "index.html": "/index.html",
     "main.d0f2428b.css.map": "/static/css/main.d0f2428b.css.map",
-    "main.ecd3b3b2.js.map": "/static/js/main.ecd3b3b2.js.map"
+    "main.9c92747d.js.map": "/static/js/main.9c92747d.js.map"
   },
   "entrypoints": [
     "static/css/main.d0f2428b.css",
-    "static/js/main.ecd3b3b2.js"
+    "static/js/main.9c92747d.js"
   ]
 }
