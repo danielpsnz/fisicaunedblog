@@ -36,7 +36,7 @@ const Guia = () => {
                 <div className="year">
                 <ul className="main-list">
                     <li className="main-list-item"><Link to="/FF1">Fundamentos de Física I</Link></li>
-                    <li className="main-list-item-dis"><Link className="disabled">Química</Link></li>
+                    <li className="main-list-item"><Link to="/Q">Química</Link></li>
                     <li className="main-list-item"><Link to="/B">Biología</Link></li>
                     <li className="main-list-item"><a href={Analisis1}>Análisis matemático I</a></li>
                     <li className="main-list-item"><a href={Algebra}>Álgebra</a></li>

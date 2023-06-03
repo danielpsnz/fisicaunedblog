@@ -86,21 +86,21 @@ const Física = () => {
 
             <h2>Sistema de evaluación</h2>
             <p className="home-about-body">
-            
+            Como en todas las asignaturas nos encontramos dos PECs. La primera va desde el primer tema hasta cinetoquímica, y la segunda desde ahí hasta reacciones químicas inclusive. Las PECs son tipo examen, aunque he de decir que la primera de ellas siempre suele ser más teórica y eso se debe a que el primer bloque de la asignatura es muy muy teórico, aunque hay algunos ejercicios sencillos que deberás saber resolver. 
             </p>
             <p className="home-about-body">
-            
+            El examen final es de desarrollo y son cinco preguntas, que pueden ser teoría, problemas o alguna pregunta de razonamiento de cualquier tema. Una de las condiciones especiales de este examen es que para aprobar debes haber contestado y obtenido algún tipo de puntuación en al menos cuatro preguntas de las cinco que hay. 
             </p>
 
             <h2>Experiencia y dificultades</h2>
             <p className="home-about-body">
-            
+            Las primeras semanas recuerdo que pensé que era muchísimo temario y se me hizo un poco cuesta arriba porque, como dije anteriormente, nunca he visto química hasta aquí. Es cierto que se dan muchas cosas por sabidas, pero cuando estuve a punto de terminar el temario, esas semanas antes del examen, mirando hacia atrás tenía la sensación de que al final no había sido para tanto. Eso sí, si apruebas ten claro que es por tu esfuerzo y sólo por tu esfuerzo porque desde luego nadie te va a ofrecer mucha ayuda (aunque espero que esta página te sirva mucho  )
             </p>
             <p className="home-about-body">
-            
+            Como ya he dicho, el libro no ayuda nada, para mi es simplemente un estorbo así que, sin ánimo de ofender a nadie, yo ni siquiera lo leería porque lo único que vas a conseguir es perder el tiempo. Coge el temario, mira qué entra en el examen y busca contenido y ejercicios resueltos sobre ellos. El temario de selectividad es muy parecido y los ejercicios resueltos de Emestrada (una página web con exámenes de selectividad corregidos) pueden servirte mucho. 
             </p>
             <p className="home-about-body">
-            
+            La asignatura no es difícil, de verdad. Es mucho más asequible que Fundamentos de Física I por ejemplo, pero es cierto que sería MUCHO más fácil si la UNED ofreciese algún tipo de recurso (útil) y ayuda. 
             </p>
 
             <ul className="main-list">

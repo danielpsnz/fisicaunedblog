@@ -41,7 +41,7 @@ const Matematicas = () => {
                     <li className="main-list-item-dis"><Link className="disabled">Calculus and Differential Equations</Link></li>
                 </ul>
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><Link className="disabled">Introduction to Probability and Statistics</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Introduction to Probability</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Vector Calculus</Link></li>
                     <li className="main-list-item-dis"><Link className="disabled">Introduction to Applied Mathematics</Link></li>
                     <li className="main-list-item"><a href={RA1}>Real Analysis I</a></li>
