@@ -48,6 +48,39 @@ const Matematicas = () => {
                 </ul>
                 </div>
 
+                <h2>Second Year</h2>
+                <div className="year">
+                <ul className="main-list">
+                    <li className="main-list-item-dis"><Link className="disabled">Group Theory</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Linear Algebra II</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Real Analysis II</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Number Theory</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Statistical Inference & Linear Models</Link></li>
+                </ul>
+                <ul className="main-list">
+                    <li className="main-list-item-dis"><Link className="disabled">Rings and Modules</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Complex Analysis</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Geometry</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Markov Chains</Link></li>
+                </ul>
+                </div>
+
+                <h2>Third Year</h2>
+                <div className="year">
+                <ul className="main-list">
+                    <li className="main-list-item-dis"><Link className="disabled">Probability and Measure</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Dynamical Systems</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Differential Geometry</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Linear Analysis</Link></li>
+                </ul>
+                <ul className="main-list">
+                    <li className="main-list-item-dis"><Link className="disabled">Stochastic Financial Models</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Analysis of Functions</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Riemann Surfaces</Link></li>
+                    <li className="main-list-item-dis"><Link className="disabled">Numerical Analysis</Link></li>
+                </ul>
+                </div>
+
             </div>
         </div>
     );
