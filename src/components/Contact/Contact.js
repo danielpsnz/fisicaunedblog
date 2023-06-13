@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../../assets/contact-img.svg";
 import 'animate.css';
@@ -6,27 +6,6 @@ import TrackVisibility from 'react-on-screen';
 import "../../App.scss";
 
 const Contact = () => {
-  const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-  };
     return(
         <section className="contact" id="connect">
             <Container>
@@ -44,7 +23,7 @@ const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Contacta conmigo</h2>
-                <form id="contact-form" onSubmit={handleSubmit} method="POST">
+                <form id="contact-form" method="POST">
                   <Row>
                     <Col size={12} sm={6} className="px-1">
                         <label htmlFor="name">Nombre:</label>
@@ -70,4 +49,4 @@ const Contact = () => {
     );
 }
 
-export default Contact;
+export default Contact; 

@@ -6,6 +6,7 @@ import './Home/Home.scss';
 
 import B from "../assets/Apuntes/Fisica/B.pdf"
 import FF1 from "../assets/Apuntes/Fisica/FF1.pdf"
+import FF2 from "../assets/Apuntes/Fisica/FF2.pdf"
 
 const Física = () => {
     return (
@@ -25,7 +26,7 @@ const Física = () => {
                 Aquí encontrarás una amplia colección de apuntes del grado de Física de la UNED. Si estás estudiando esta carrera o simplemente tienes curiosidad por ampliar tus conocimientos en el campo de la física, has llegado al lugar indicado. He recopilado cuidadosamente mis apuntes de cada asignatura que he cursado y los he puesto a tu disposición para que puedas descargarlos de forma gratuita. Estos apuntes son el fruto de mi dedicación y esfuerzo, y espero que te sean de gran utilidad en tu camino hacia el conocimiento. ¡Explora, descarga y disfruta aprendiendo con estos recursos!
                 </p>
                 <p className="home-about-body">
-                    (*) Estos apuntes están en mantenimiento. Próxima actualización: 12/06/2023
+                    (*) Estos apuntes están en mantenimiento. Próxima actualización: 19/06/2023
                 </p>
 
                 <h2>Primer año</h2>
@@ -36,7 +37,7 @@ const Física = () => {
                     <li className="main-list-item"><a href={B}>Biología</a></li>
                 </ul>
                 <ul className="main-list">
-                    <li className="main-list-item-dis"><Link className="disabled">Fundamentos de Física II</Link></li>
+                    <li className="main-list-item"><a href={FF2}>Fundamentos de Física II</a></li>
                     <li className="main-list-item-dis"><Link className="disabled">Técnicas Experimentales I</Link></li>
                 </ul>
                 </div>
